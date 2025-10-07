@@ -7,7 +7,9 @@ load_dotenv()
 
 # Check for required environment variables
 if not os.getenv("OPENAI_API_KEY"):
-    raise ValueError("OPENAI_API_KEY environment variable is not set")
+    print("WARNING: OPENAI_API_KEY environment variable is not set")
+    print("Please set OPENAI_API_KEY in Railway environment variables")
+    # Don't raise error during startup, let the app start and show error in health check
 
 import uvicorn
 from fastapi import FastAPI, HTTPException
@@ -53,7 +55,14 @@ app.include_router(onace.router)
 @app.get("/health")
 async def health_check():
     """Simple health check endpoint."""
-    return {"status": "ok", "version": "0.1.0"}
+    openai_key_status = "set" if os.getenv("OPENAI_API_KEY") else "missing"
+    return {
+        "status": "ok", 
+        "version": "0.1.0",
+        "openai_key": openai_key_status,
+        "documents_dir": os.getenv("DOCUMENTS_DIR", "default"),
+        "embeddings_dir": os.getenv("EMBEDDINGS_DIR", "default")
+    }
 
 
 def start():
