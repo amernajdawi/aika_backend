@@ -1,0 +1,30 @@
+{
+  "document_id": "f414c284-1f22-4c21-85ff-1149e20eabe7",
+  "chunks": [
+    {
+      "chunk_id": "f414c284-1f22-4c21-85ff-1149e20eabe7_p1_c0",
+      "text": "SBTi’s BUILDINGS SECTOR CRITERIA IN BRIEF August 2024 The Value of Decarbonizing the Buildings Sector As you read this, you’re probably inside some sort of building–perhaps a corporate office, an apartment complex or even a coffee shop. Undoubtedly, the initial construction and subsequent maintenance and operations of that building generated, and continue to generate, greenhouse gas emissions. When you tally up the entire buildings sector, it accounts for more than a third (34%) of global energy consumption and more than a quarter (26%) of all energy-related emissions (IEA, 2023). The construction of new buildings is set to expand the global floor area 15% by 2030, most of which is anticipated to happen in developing and emerging economies (IEA, 2023). It is critical that such buildings use the latest technology to minimize emissions associated with construction, maintenance and operations. However, given that 80% of the buildings that will exist in 2050 have already been built, it’s also vital to focus efforts on decarbonizing the world’s existing buildings (WEF, 2022). The SBTi has developed criteria for businesses to enable decarbonization of buildings-related emissions on both fronts. Who Can Use the SBTi’s Buildings Sector Criteria? Whether it’s new or old buildings, the SBTi’s Building Sector Criteria provides companies that own, develop, manage or finance real estate with criteria to set science-based targets in line with the latest climate science. The criteria lays out clear applicability and threshold criteria so that businesses involved in real estate and buildings can understand if the Building Sector Criteria is for them. Figure 1 gives a brief overview of the required users of the criteria and other businesses within the value chain. Figure 1: Business types along the buildings value chain 1",
+      "embedding_index": 0,
+      "page_number": 1
+    },
+    {
+      "chunk_id": "f414c284-1f22-4c21-85ff-1149e20eabe7_p3_c0",
+      "text": "Figure 2: Steps to set target(s) across scope 1, 2 and some scope 3 emissions using the Buildings Criteria Setting Targets using the Buildings Criteria Figures 2 and 3 provide a simplified walkthrough of the process to set targets across scope 1, 2 and 3 (category 1 - 14) emissions using the Buildings Criteria. As shown in Figure 2 (on the left), the target setting methodology and the scope of coverage are both dependent on the user type. Businesses must select the user type that best describes their business activity and use all relevant criteria to set targets. For more detailed information, see Table 1a and 1b in the Buildings Criteria. Figure 3 (below) shows which target setting methods are appropriate based on the type of scope emissions. This includes differentiation between scope 3 emissions from newly developed buildings and all other scope 3 emissions types, including by category. For more detailed information, see Table 1c and 1d in the Buildings Criteria. 3",
+      "embedding_index": 1,
+      "page_number": 3
+    },
+    {
+      "chunk_id": "f414c284-1f22-4c21-85ff-1149e20eabe7_p5_c0",
+      "text": "Frequently Asked Questions (FAQs) What are the different user types in the Buildings Criteria and how do I know which one my business belongs to? The Buildings Criteria identifies five different user types: ● Developer ● Owner-occupier ● Owner-lessor ● Property manager ● Financial institution (FI) The SBTi defines an FI as an entity that generates 5% or more of its revenue from investment, lending or insurance. Other businesses must evaluate their business activities and use the relevant target-setting criteria that apply to them. If multiple user types apply to a single business, then they must set targets according to each applicable user category. When submitting targets to the SBTi, companies will need to briefly explain their choice in user type(s). My business is a small or medium-sized enterprise (SME). Should I use the Buildings Criteria or SME target setting route? If your business qualifies as an SME according to the SBTi’s latest definition, then you may use either the target validation route for SMEs or the Buildings Criteria, if the thresholds included in Buildings-C1 or Buildings-C2 are met. What are the different target-setting methods, and which should I use? The Buildings Criteria includes criteria around seven different target setting methods: ● In-use operational SDA ● Upfront embodied SDA ● Sector specific absolute reduction ● Absolute reduction 1.5°C* ● Absolute reduction WB2°C* ● Physical intensity (scope 3)* ● Economic intensity (scope 3)* Each of these target setting methods is best suited to different users under different conditions. The applicable uses of each method are detailed above in Figure 1 and 2 of this document, as well as in Tables 1a, 1b, 1c and 1d in the Buildings Criteria. *Methods described in the SBTi Corporate Net-Zero Standard. What are the different emissions sources covered in the Buildings Criteria? There are two main categories of emissions considered in the Buildings Criteria: ● Embodied emissions: These are emissions associated with all upstream activities for the development of a building. This includes everything from the extraction of raw materials, the assembly of base components, transportation and construction. 5",
+      "embedding_index": 2,
+      "page_number": 5
+    }
+  ],
+  "metadata": {
+    "source": "new_data_folder",
+    "filename": "G_2024_SBTi_BuildingCriteria.pdf",
+    "file_type": ".pdf",
+    "onace_codes": "F",
+    "is_vsme": false
+  }
+}
