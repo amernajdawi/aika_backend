@@ -8,3 +8,4 @@ export PORT=${PORT:-8000}
 
 # Start the application
 python -m uvicorn src.api.app:app --host 0.0.0.0 --port $PORT --workers 1
+# Test comment
