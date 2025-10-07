@@ -52,11 +52,15 @@ COPY --from=builder /usr/local/lib/python3.13 /usr/local/lib/python3.13
 COPY --from=builder /usr/local/bin /usr/local/bin
 COPY --from=builder /app/src ./src
 
-# 5. Ensure correct file permissions
+# 5. Copy startup script
+COPY start.sh ./start.sh
+RUN chmod +x ./start.sh
+
+# 6. Ensure correct file permissions
 RUN chown -R appuser:appuser /app
 USER appuser
 
-# 6. Set environment variables
+# 7. Set environment variables
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     DOCUMENTS_DIR=/app/data/documents \
@@ -67,5 +71,5 @@ ENV MALLOC_TRIM_THRESHOLD_=100000 \
     PYTHONMALLOC=malloc 
 
 # 8. Expose port and define entrypoint
-EXPOSE $PORT
-ENTRYPOINT ["python", "-m", "uvicorn", "src.api.app:app", "--host", "0.0.0.0", "--port", "$PORT", "--workers", "1", "--limit-concurrency", "10"]
+EXPOSE 8000
+ENTRYPOINT ["./start.sh"]
